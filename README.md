@@ -4,7 +4,7 @@
 An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
 
 
-## Table of Contents  
+# Table of Contents  
 1. [Project Overview](#1-project-overview)  
 2. [Dataset Summary](#2-dataset-summary)  
 3. [Key Insights](#3-analytics--visual-insights)
@@ -13,7 +13,7 @@ An Excel-based clinical analytics project exploring OCD severity patterns, comor
 6. [Repository Files](#5-repository-files)  
 
 
-## 1. Project Overview  
+# 1. Project Overview  
 This project demonstrates the capabilities of a **Health Data Analyst/Product Analyst** by translating real-world style clinical data (N = 60) into high-impact insights supporting:
 
 - Therapeutic strategy  
@@ -24,7 +24,7 @@ This project demonstrates the capabilities of a **Health Data Analyst/Product An
 
 The analysis uses **Excel (PivotTables, calculated fields, dashboards)** to model:
 
-### Core Analytical Objectives  
+## Core Analytical Objectives  
 - **Severity Segmentation:** Identify patterns in Y-BOCS severity across demographics  
 - **Comorbidity Impact:** Understand how Depression/Anxiety influence symptom burden  
 - **High-Risk Phenotypes:** Detect severe Obsession–Compulsion clusters  
@@ -34,9 +34,9 @@ The analysis uses **Excel (PivotTables, calculated fields, dashboards)** to mode
 This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, and Product Strategy.
 
 
-## 2. Dataset Summary  
+# 2. Dataset Summary  
 
-### **Core Attributes Collected**
+## **Core Attributes Collected**
 - **Demographics:** Age, Gender  
 - **Disease Profile:** Symptom duration  
 - **Comorbidities:** Depression, Anxiety  
@@ -44,7 +44,7 @@ This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, an
 - **Treatment:** Primary medication class  
 - **Severity Metrics:** Y-BOCS Obsessions & Compulsions  
 
-### **Derived Fields**
+## **Derived Fields**
 - **Total OCD Severity** = Mean of Obsession + Compulsion score  
 - **Age Groups:** Under 30 · 30–50 · Over 50  
 - **Duration Bands:** 0–5 yrs · 5–10 yrs · >10 yrs  
@@ -164,12 +164,12 @@ Heatmap-driven phenotypes support:
 
 # 5. Limitations & Next Steps  
 
-### Limitations  
+## Limitations  
 - Sample size = 60  
 - Medication adherence not measured  
 - Limited comorbidity categories  
 
-### Next Steps  
+## Next Steps  
 - Build regression models to predict severity  
 - Expand dataset to 500+ patients  
 - Develop automated Excel dashboards  
