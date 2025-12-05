@@ -54,10 +54,8 @@ This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, an
 This section transforms raw clinical data into meaningful insights for treatment optimization, product strategy, and evidence-based decision making.  
 Each visualization includes **observations**, **clinical interpretation**, and **business implications**—mirroring real-world pharma analytics workflows.
 
----
 
-## 3.1 OCD Severity by Gender  
-**Caption:** *Gender-driven severity differences highlight opportunities for tailored clinical interventions.*
+## 3.1 Gender-driven severity differences highlight opportunities for tailored clinical interventions
 
 ### Observation  
 Female patients show slightly higher average severity scores in both Obsessions and Compulsions.
@@ -69,13 +67,11 @@ This may indicate stronger emotional rumination patterns or heightened symptom a
 - Patient support materials may need gender-sensitive customization.  
 - Medical Affairs could design female-focused awareness campaigns targeting early detection.  
 
-**Visualization:**  
 ![](dataset/gender_severity.png)
 
 ---
 
-## 3.2 OCD Severity by Age Group  
-**Caption:** *Younger patients show early-stage, high-burden illness—an important signal for long-term treatment planning.*
+## 3.2 Younger patients show early-stage, high-burden illness—an important signal for long-term treatment planning.
 
 ### Observation  
 Patients **under 30** display the **highest severity**, followed by middle-aged adults (30–50).
@@ -90,13 +86,11 @@ Early pronounced symptoms suggest:
 - Pharma can design **early-intervention programs** targeting younger adults.  
 - Digital therapeutics and CBT companion apps may be particularly effective for this demographic.  
 
-**Visualization:**  
 ![](dataset/agegroup_severity.png)
 
 ---
 
-## 3.3 Severity by Depression Comorbidity  
-**Caption:** *A surprising pattern: OCD may be more severe when it exists independently of depression.*
+## 3.3 A surprising pattern: OCD may be more severe when it exists independently of depression.
 
 ### Observation  
 Patients **without depression** show slightly **higher OCD severity** than those with depressive symptoms.
@@ -110,14 +104,11 @@ This suggests that:
 ### Business Impact  
 - Medical Affairs messaging should highlight the differentiation between **primary OCD** vs. **OCD with mood overlap**.  
 - Supports the need for **diagnostic clarity tools** in primary care settings.  
-
-**Visualization:**  
+ 
 ![](dataset/depression_severity.png)
 
----
 
-## 3.4 Severity by Anxiety Comorbidity  
-**Caption:** *Anxiety amplifies compulsive behaviors—identifying a high-risk treatment-resistant phenotype.*
+## 3.4 Anxiety amplifies compulsive behaviors—identifying a high-risk treatment-resistant phenotype
 
 ### Observation  
 Patients with **Anxiety Comorbidity** exhibit **significantly higher Compulsion severity**.
@@ -132,13 +123,10 @@ This aligns with clinical understanding that anxiety:
 - Reinforces need for **combined therapy approaches** (SSRI + CBT or DTx for anxiety-driven compulsions).  
 - Useful segmentation criterion for **real-world evidence studies**.  
 
-**Visualization:**  
 ![](dataset/anxiety_severity.png)
 
----
 
-## 3.5 Obsession–Compulsion Severity Heatmap  
-**Caption:** *Identifying the highest-burden clinical phenotypes using persona-driven severity mapping.*
+## 3.5 Identifying the highest-burden clinical phenotypes using persona-driven severity mapping
 
 ### Observation  
 Certain combination types emerge as **high-severity clusters**, including:
@@ -155,17 +143,13 @@ These combinations often represent:
 They are also among the subtypes most resistant to standard SSRI monotherapy.
 
 ### Business Impact  
-- Ideal patient groups for **precision-medicine trials**  
+- Ideal patient groups for precision-medicine trials 
 - Strong candidates for advanced or adjunctive therapies  
 - Actionable personas for Medical Affairs storytelling and HCP education  
 
-**Visualization:**  
 ![](dataset/obsession_compulsion_heatmap.png)
 
----
-
-## 3.6 Medication Class × Anxiety Status  
-**Caption:** *Treatment gaps become visible when severity is compared across medication classes.*
+## 3.6 Treatment gaps become visible when severity is compared across medication classes.
 
 ### Observation  
 - Patients receiving **no medication** show the **highest overall severity**.  
@@ -181,13 +165,9 @@ This may reflect:
 - Clear need for therapy initiation campaigns among untreated patients.  
 - Highlights the importance of prescribing guidelines discouraging benzodiazepine monotherapy.  
 
-**Visualization:**  
 ![](dataset/meds_anxiety.png)
 
----
-
-## 3.7 Medication Class × Disease Duration  
-**Caption:** *Longer disease duration correlates with greater severity—yet SSRIs show the most stable performance.*
+## 3.7 Longer disease duration correlates with greater severity—yet SSRIs show the most stable performance.
 
 ### Observation  
 Severity increases steadily with **disease duration**, regardless of medication class.
@@ -204,7 +184,6 @@ SSRIs appear to demonstrate **more stable severity curves**, showing reliable lo
 - Reinforces SSRIs as the clinical first-line backbone.  
 - Identifies long-duration patients as optimal targets for **augmentation trials**, new mechanisms, and digital support tools.  
 
-**Visualization:**  
 ![](dataset/meds_duration.png)
 
 
