@@ -47,7 +47,7 @@ Female patients show slightly higher severity scores in both obsessions and comp
 This suggests gender-specific symptom expression, which may influence patient support programs or targeted educational material.
 
 **Visualization:**  
-![](figures/gender_severity 2.png)
+![](figures/gender_severity_2.png)
 
 ---
 
@@ -67,7 +67,7 @@ Patients without depression show *higher* OCD scores.
 This suggests their OCD symptoms may be more primary rather than secondary to mood disorders — potentially affecting how treatment is prioritized.
 
 **Visualization:**  
-![](figures/depression_severity 2.png)
+![](figures/depression_severity_2.png)
 
 ---
 
@@ -77,7 +77,7 @@ Anxiety comorbidity correlates with significantly higher compulsion severity.
 This implies anxiety may intensify compulsive behaviors — a valuable insight for combination-therapy research or clinical messaging.
 
 **Visualization:**  
-![](figures/anxiety_severity 2.png)
+![](figures/anxiety_severity_2.png)
 
 ---
 
@@ -91,7 +91,7 @@ This heatmap identifies high-severity pairings such as:
 These clusters highlight the most clinically burdensome behavior patterns and help identify patients needing intensified therapy.
 
 **Visualization:**  
-![](figures/obsession_compulsion_heatmap 2.png)
+![](figures/obsession_compulsion_heatmap_2.png)
 
 ---
 
@@ -101,7 +101,7 @@ Among medication classes, patients on **“None”** showed the highest severity
 For medicated patients, benzodiazepine users showed relatively high severity, suggesting partial response or inappropriate monotherapy.
 
 **Visualization:**  
-![](figures/meds_anxiety 2.png)
+![](figures/meds_anxiety_2.png)
 
 ---
 
@@ -111,7 +111,7 @@ Severity tends to increase with longer disease duration for all medication class
 SSRI users show the most stable pattern across duration groups, supporting SSRIs as the most consistent long-term therapy.
 
 **Visualization:**  
-![](figures/meds_duration 2.png)
+![](figures/meds_duration_2.png)
 
 ---
 
