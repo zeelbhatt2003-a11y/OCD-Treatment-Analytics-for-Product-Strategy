@@ -3,169 +3,188 @@
 # OCD Treatment Analytics for Pharma Product Strategy  
 An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
 
-## Table of Contents
-1. Project Overview  
-2. Dataset Summary  
-3. Key Insights  
-4. Visualizations  
-5. Strategic Recommendations  
-6. Files in Repository  
+
+## Table of Contents  
+1. [Project Overview](#1-project-overview)  
+2. [Dataset Summary](#2-dataset-summary)  
+3. [Key Insights](#3-analytics--visual-insights)  
+4. [Visualizations](#3-analytics--visual-insights)  
+5. [Strategic Recommendations](#4-strategic-insights-for-biopharma-product--medical-teams)  
+6. [Limitations & Next Steps](#limitations--next-steps)  
+7. [Repository Files](#5-repository-files)  
 
 
 ## 1. Project Overview  
-This project demonstrates the core competencies of a Product Analyst or Medical Affairs Analyst by translating complex, real-world style clinical data (N=60) into actionable, evidence-based insights for therapeutic strategy, market segmentation, and clinical decision support within the biopharma industry.The analysis provides critical intelligence necessary for building data-driven business cases, optimizing product roadmaps, and prioritizing Real-World Evidence (RWE) generation across the product lifecycle.
+This project demonstrates the capabilities of a **Health Data Analyst/Product Analyst** by translating real-world style clinical data (N = 60) into high-impact insights supporting:
 
-Core Analytical ObjectivesThe analysis utilizes the Yale-Brown Obsessive Compulsive Scale (Y-BOCS) and patient metadata to:
+- Therapeutic strategy  
+- Market segmentation  
+- Evidence generation  
+- Clinical communication  
+- Treatment optimization  
 
-- Segment Severity: Uncover patterns in symptom severity ({Y-BOCS}) across key demographic factors (e.g., Age Group, Sex). 
-- Comorbidity Impact: Quantify the influence of co-morbid Depression and Anxiety on overall disease severity and treatment response rates.  
-- High-Risk Phenotypes: Identify and prioritize specific Obsession-Compulsion combinations that drive the highest functional impairment.
-- TrTreatment Efficacy: Compare mean treatment outcomes across various medication classes, including SSRI Monotherapy vs. Augmentation.  
-- Prognostic Factors: Assess the predictive role of Disease Duration (time from symptom onset) on subsequent treatment success and failure.
-  
-Analysis Tool: Microsoft Excel (PivotTables, Calculated Fields, and Visual Dashboards) — Demonstrating proficiency in rapid data-to-insight generation before scaling to platform/engineering solutions.
+The analysis uses **Excel (PivotTables, calculated fields, dashboards)** to model:
 
-## What This Project Demonstrates
-- Clinical data exploration using Excel  
-- Patient segmentation & disease severity profiling  
-- Understanding of comorbidity interactions  
-- Product strategy thinking (treatment class performance)  
-- Dashboard-level storytelling  
+### Core Analytical Objectives  
+- **Severity Segmentation:** Identify patterns in Y-BOCS severity across demographics  
+- **Comorbidity Impact:** Understand how Depression/Anxiety influence symptom burden  
+- **High-Risk Phenotypes:** Detect severe Obsession–Compulsion clusters  
+- **Treatment Performance:** Compare symptom severity across medication classes  
+- **Prognostic Factors:** Analyze disease duration and long-term severity trends  
 
-## Dataset Summary  
-
-**Core Attributes**
-Each record includes essential data for clinical modeling:
-- Demographics: Age and Gender
-- Disease Profile: Symptom Duration
-- Obsession/Compulsion Type, and the presence of Depression/Anxiety Comorbidities
-- Treatment: Primary Medication Class (SSRI, SNRI, Benzodiazepine, None)
-- Severity Metric: Raw {Y-BOCS} Scores (Obsessions & Compulsions)
-  
-**Derived fields:**  
-- **Total OCD Severity** = Average of obsession + compulsion score  
-- **Age group** (Under 30, 30–50, Over 50)  
-- **Duration band** (0–5 yrs, 5–10 yrs, >10 yrs)
+This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, and Product Strategy.
 
 
-## 4. Analytics & Visual Insights  
+## 2. Dataset Summary  
 
-Each visualization is paired with a clear interpretation written from a pharma-analytics perspective.
+### **Core Attributes Collected**
+- **Demographics:** Age, Gender  
+- **Disease Profile:** Symptom duration  
+- **Comorbidities:** Depression, Anxiety  
+- **Clinical Variables:** Obsession type, Compulsion type  
+- **Treatment:** Primary medication class  
+- **Severity Metrics:** Y-BOCS Obsessions & Compulsions  
+
+### **Derived Fields**
+- **Total OCD Severity** = Mean of Obsession + Compulsion score  
+- **Age Groups:** Under 30 · 30–50 · Over 50  
+- **Duration Bands:** 0–5 yrs · 5–10 yrs · >10 yrs  
 
 
-### 3.1 OCD Severity by Gender  
+# 3. Analytics & Visual Insights  
+
+Each visualization includes both an **observation** and a **strategic interpretation**.
+
+
+## 🔹 3.1 OCD Severity by Gender  
 **Insight:**  
-Observation: Females show slightly higher severity.
-Interpretation: Suggests stronger emotional/ruminative symptom types.
-Business Impact: Ideal audience for targeted educational content or support programs.
+Female patients show slightly higher severity levels.
+
+**Interpretation:**  
+May reflect stronger emotional, ruminative symptom profiles — helpful for tailoring patient support programs.
 
 **Visualization:**  
 ![](dataset/gender_severity.png)
 
 
-### 3.2 OCD Severity by Age Group  
+## 🔹 3.2 OCD Severity by Age Group  
 **Insight:**  
-Patients under 30 demonstrate the highest average severity.  
-This indicates earlier-stage, more disruptive illness, representing a key segment for early-intervention therapies and long-term treatment planning.
+Patients **under 30** show the **highest severity**.
+
+**Interpretation:**  
+Indicates early-onset, high-burden illness → key target group for **early intervention therapies**.
 
 **Visualization:**  
 ![](dataset/agegroup_severity.png)
 
 
-### 3.3 OCD Severity by Depression Comorbidity  
+## 🔹 3.3 Severity by Depression Comorbidity  
 **Insight:**  
-Patients without depression show *higher* OCD scores.  
-This suggests their OCD symptoms may be more primary rather than secondary to mood disorders — potentially affecting how treatment is prioritized.
+Surprisingly, patients **without depression** show slightly higher OCD severity.
+
+**Interpretation:**  
+OCD may be more primary and independent of mood symptoms — affects clinical prioritization.
 
 **Visualization:**  
 ![](dataset/depression_severity.png)
 
 
-### 3.4 OCD Severity by Anxiety Comorbidity  
+## 🔹 3.4 Severity by Anxiety Comorbidity  
 **Insight:**  
-Anxiety comorbidity correlates with significantly higher compulsion severity.  
-This implies anxiety may intensify compulsive behaviors — a valuable insight for combination-therapy research or clinical messaging.
+Anxiety comorbidity significantly increases **compulsion severity**.
+
+**Interpretation:**  
+Anxiety may intensify compulsive behavior → supports combination therapy messaging.
 
 **Visualization:**  
 ![](dataset/anxiety_severity.png)
 
 
-### 3.5 Obsession–Compulsion Severity Heatmap  
-**Insight:**  
-This heatmap identifies high-severity pairings such as:  
-- **Religious + Praying**  
-- **Harm-related + Checking**  
-- **Symmetry + Checking**  
+## 🔹 3.5 Obsession–Compulsion Severity Heatmap  
+**High-Severity Clusters Identified:**
+- Religious → Praying  
+- Harm-Related → Checking  
+- Symmetry → Checking  
 
-These clusters highlight the most clinically burdensome behavior patterns and help identify patients needing intensified therapy.
+**Interpretation:**  
+These define **high-burden phenotypes** — ideal for precision medicine, clinical trial enrichment, and targeted CBT programs.
 
 **Visualization:**  
 ![](dataset/obsession_compulsion_heatmap.png)
 
 
-### 3.6 Medication Class × Anxiety Status  
+## 🔹 3.6 Medication Class × Anxiety Status  
 **Insight:**  
-Among medication classes, patients on **“None”** showed the highest severity — indicating unmet treatment needs.  
-For medicated patients, benzodiazepine users showed relatively high severity, suggesting partial response or inappropriate monotherapy.
+Patients receiving **no medication** show the **highest severity**.
+
+**Interpretation:**  
+Indicates major unmet need and treatment gaps.
 
 **Visualization:**  
 ![](dataset/meds_anxiety.png)
 
 
-### 3.7 Medication Class × Disease Duration  
+## 🔹 3.7 Medication Class × Disease Duration  
 **Insight:**  
-Severity tends to increase with longer disease duration for all medication classes.  
-SSRI users show the most stable pattern across duration groups, supporting SSRIs as the most consistent long-term therapy.
+Severity increases with disease duration across all medication classes.
+
+**Interpretation:**  
+Supports long-term disease progression modeling; SSRIs show most stable long-term patterns.
 
 **Visualization:**  
 ![](dataset/meds_duration.png)
 
-## Limitations & Next Steps
 
-## Limitations
-- Sample size limited to 60 patients  
-- Real-world data would include more comorbidity fields  
-- Medication adherence was not measured  
+# 4. Strategic Insights for Biopharma Product & Medical Teams  
 
-## Next Steps
-- Add regression to quantify predictors of severity  
-- Build automated Excel dashboards  
+
+## 1. High-Value Unmet-Need Segments  
+- **Untreated, high-severity patients**  
+- **Long-duration, partial-response patients**  
+- **Early severe onset (<30 yrs)** — ideal for early-intervention campaigns  
+
+
+## 2. Medication Class Performance  
+- **SSRIs:** Most stable long-term control  
+- **SNRIs:** Highly variable → requires targeted RWE  
+- **Benzodiazepines:** Associated with high severity → treatment-resistant signal  
+
+
+## 3. Behavioral Phenotype Clusters  
+Heatmap-driven phenotypes support:
+- Precision segmentation  
+- RWE prioritization  
+- Advanced therapy messaging  
+
+
+## 4. Opportunities for Intervention  
+- Digital therapeutics for high compulsion severity  
+- Combined therapy strategies for comorbidity-linked severity  
+- Early intervention for high-burden young adults  
+
+
+# Limitations & Next Steps  
+
+### Limitations  
+- Sample size = 60  
+- Medication adherence not measured  
+- Limited comorbidity categories  
+
+### Next Steps  
+- Build regression models to predict severity  
 - Expand dataset to 500+ patients  
+- Develop automated Excel dashboards  
 
 
+# 5. Repository Files  
 
-## 4. Strategic Insights for Biopharma Product & Medical Teams
-
-The analysis of the N=60 patient cohort provides actionable, evidence-based direction for product strategy, market segmentation, and clinical communication.
-
-### 1. Clear Unmet-Need Segments
-* **High-Acuity/Untreated:** Focus on patients with high baseline severity (e.g., Obsession Y-BOCS up to 31.2) who are currently on **No Medication** but possess **Anxiety Comorbidity**. This defines an immediate, high-value segment for **treatment initiation campaigns**.
-* **Long-Duration & Refractory:** Patients with **Disease Duration >10 years** often show partial response. This segment requires **therapeutic augmentation** or switching strategies to overcome chronic symptom plateaus.
-* **Early, Severe Onset:** The **Under 30 age group** shows peak **Obsession Severity** (24.81), necessitating **early, aggressive intervention** programs focused on disrupting acute obsessional thought patterns.
-
-### 2. Medication Class Performance & Clinical Guidance
-* **SSRI Stability:** SSRIs demonstrate the most **consistent long-term symptom control** in chronic users, confirming their role as the gold-standard baseline therapy.
-* **SNRI Heterogeneity:** Performance varies significantly by comorbidity profile, signaling a need for **targeted RWE** to define its optimal placement in the treatment algorithm.
-* **Benzodiazepine Correlation:** Use correlates with **higher overall severity**, flagging a potential **treatment-resistant subgroup** or the need for **clinician education** on its appropriate adjunctive vs. monotherapy use.
-
-### 3. Behavioral Phenotype Clusters
-* **Precision Targeting:** The Obsession–Compulsion Heatmap identifies maximum-severity clusters (e.g., Religious Obsession + Checking, Obsession Y-BOCS = 32.5). These severe phenotypes are ideal for **Precision Medicine Segmentation** and **advanced therapy trials** to prove efficacy in the most burdensome patient subsets.
-
-### 4. Opportunities for Targeted Interventions
-* **Digital/Behavioral Therapy:** Target solutions toward patient segments with high **Compulsion severity** (e.g., 30–50 age group) to manage entrenched, high-impact rituals.
-* **Clinical Messaging:** Focus on the impact of **Comorbidity-Linked Severity** (Anxiety/Depression) to encourage clinicians toward comprehensive, multi-modal treatment planning.
-* **Early Intervention:** Implement programs targeting young adults to reduce the long-term functional impairment caused by severe symptom onset.
+| File | Description |
+|------|-------------|
+| `ocd_analytics.xlsx` | Primary patient dataset |
+| `dataset/*.png` | Visualizations exported from Excel |
+| `README.md` | Full project report |
 
 
-## 5. Repository Files
-
-This project utilizes the following data files:
-
-* `ocd_analytics.xlsx - Sheet1.csv`: **Primary Patient Data.** Contains raw demographics, clinical variables, and Y-BOCS scores.
-* `ocd_analytics.xlsx - Sheet3.csv`: **PivotTable Source Data.** Contains aggregated summary tables used for all statistical insights and visualizations.
-
-  ---
-
-**Project by Zeel Bhatt**    
-Email: zeelbhatt2003@gmail.com
+**Project by Zeel Bhatt**  
+**zeelbhatt2003@gmail.com**
 
