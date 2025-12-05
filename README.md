@@ -120,13 +120,13 @@ This aligns with clinical understanding that anxiety:
 - Makes compulsions harder to control  
 
 ### Business Impact  
-- Reinforces need for **combined therapy approaches** (SSRI + CBT or DTx for anxiety-driven compulsions).  
-- Useful segmentation criterion for **real-world evidence studies**.  
+- Reinforces need for combined therapy approaches (SSRI + CBT or DTx for anxiety-driven compulsions).  
+- Useful segmentation criterion for real-world evidence studies.  
 
 ![](dataset/anxiety_severity.png)
 
 
-## 3.5 Identifying the highest-burden clinical phenotypes using persona-driven severity mapping
+## 3.5 Identifying the highest-burden clinical phenotypes using persona driven severity mapping
 
 ### Observation  
 Certain combination types emerge as **high-severity clusters**, including:
@@ -167,7 +167,7 @@ This may reflect:
 
 ![](dataset/meds_anxiety.png)
 
-## 3.7 Longer disease duration correlates with greater severity—yet SSRIs show the most stable performance.
+## 3.7 Longer disease duration correlates with greater severity yet SSRIs show the most stable performance.
 
 ### Observation  
 Severity increases steadily with **disease duration**, regardless of medication class.
