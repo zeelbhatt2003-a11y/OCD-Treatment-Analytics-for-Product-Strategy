@@ -51,84 +51,158 @@ This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, an
 
 
 # 3. Analytics & Visual Insights  
+This section transforms raw clinical data into meaningful insights for treatment optimization, product strategy, and evidence-based decision making.  
+Each visualization includes **observations**, **clinical interpretation**, and **business implications**—mirroring real-world pharma analytics workflows.
 
-Each visualization includes both an **observation** and a **strategic interpretation**.
-
+---
 
 ## 3.1 OCD Severity by Gender  
-**Insight:**  
-Female patients show slightly higher severity levels.
+**Caption:** *Gender-driven severity differences highlight opportunities for tailored clinical interventions.*
 
-**Interpretation:**  
-May reflect stronger emotional, ruminative symptom profiles — helpful for tailoring patient support programs.
+### Observation  
+Female patients show slightly higher average severity scores in both Obsessions and Compulsions.
+
+### Interpretation  
+This may indicate stronger emotional rumination patterns or heightened symptom awareness among females, aligning with known epidemiological trends in anxiety-spectrum disorders.
+
+### Business Impact  
+- Patient support materials may need gender-sensitive customization.  
+- Medical Affairs could design female-focused awareness campaigns targeting early detection.  
 
 **Visualization:**  
 ![](dataset/gender_severity.png)
 
+---
 
 ## 3.2 OCD Severity by Age Group  
-**Insight:**  
-Patients **under 30** show the **highest severity**.
+**Caption:** *Younger patients show early-stage, high-burden illness—an important signal for long-term treatment planning.*
 
-**Interpretation:**  
-Indicates early-onset, high-burden illness → key target group for **early intervention therapies**.
+### Observation  
+Patients **under 30** display the **highest severity**, followed by middle-aged adults (30–50).
+
+### Interpretation  
+Early pronounced symptoms suggest:
+- Higher functional disruption early in life  
+- Increased risk of chronicity without intervention  
+- Greater sensitivity to stress triggers  
+
+### Business Impact  
+- Pharma can design **early-intervention programs** targeting younger adults.  
+- Digital therapeutics and CBT companion apps may be particularly effective for this demographic.  
 
 **Visualization:**  
 ![](dataset/agegroup_severity.png)
 
+---
 
 ## 3.3 Severity by Depression Comorbidity  
-**Insight:**  
-Surprisingly, patients **without depression** show slightly higher OCD severity.
+**Caption:** *A surprising pattern: OCD may be more severe when it exists independently of depression.*
 
-**Interpretation:**  
-OCD may be more primary and independent of mood symptoms — affects clinical prioritization.
+### Observation  
+Patients **without depression** show slightly **higher OCD severity** than those with depressive symptoms.
+
+### Interpretation  
+This suggests that:
+- Their OCD symptoms may be **primary**, not secondary to mood disorders  
+- Depression may overshadow OCD reporting, reducing apparent severity  
+- Treatment plans may require different sequencing (e.g., OCD-first approach)  
+
+### Business Impact  
+- Medical Affairs messaging should highlight the differentiation between **primary OCD** vs. **OCD with mood overlap**.  
+- Supports the need for **diagnostic clarity tools** in primary care settings.  
 
 **Visualization:**  
 ![](dataset/depression_severity.png)
 
+---
 
 ## 3.4 Severity by Anxiety Comorbidity  
-**Insight:**  
-Anxiety comorbidity significantly increases **compulsion severity**.
+**Caption:** *Anxiety amplifies compulsive behaviors—identifying a high-risk treatment-resistant phenotype.*
 
-**Interpretation:**  
-Anxiety may intensify compulsive behavior → supports combination therapy messaging.
+### Observation  
+Patients with **Anxiety Comorbidity** exhibit **significantly higher Compulsion severity**.
+
+### Interpretation  
+This aligns with clinical understanding that anxiety:
+- Increases ritualistic behavior  
+- Intensifies fear-avoidance cycles  
+- Makes compulsions harder to control  
+
+### Business Impact  
+- Reinforces need for **combined therapy approaches** (SSRI + CBT or DTx for anxiety-driven compulsions).  
+- Useful segmentation criterion for **real-world evidence studies**.  
 
 **Visualization:**  
 ![](dataset/anxiety_severity.png)
 
+---
 
 ## 3.5 Obsession–Compulsion Severity Heatmap  
-**High-Severity Clusters Identified:**
-- Religious → Praying  
-- Harm-Related → Checking  
-- Symmetry → Checking  
+**Caption:** *Identifying the highest-burden clinical phenotypes using persona-driven severity mapping.*
 
-**Interpretation:**  
-These define **high-burden phenotypes** — ideal for precision medicine, clinical trial enrichment, and targeted CBT programs.
+### Observation  
+Certain combination types emerge as **high-severity clusters**, including:
+- **Religious Obsessions + Praying**  
+- **Harm-related Obsessions + Checking**  
+- **Symmetry Obsessions + Checking**  
+
+### Interpretation  
+These combinations often represent:
+- High emotional distress  
+- Time-consuming rituals  
+- Increased risk of social and occupational impairment  
+
+They are also among the subtypes most resistant to standard SSRI monotherapy.
+
+### Business Impact  
+- Ideal patient groups for **precision-medicine trials**  
+- Strong candidates for advanced or adjunctive therapies  
+- Actionable personas for Medical Affairs storytelling and HCP education  
 
 **Visualization:**  
 ![](dataset/obsession_compulsion_heatmap.png)
 
+---
 
 ## 3.6 Medication Class × Anxiety Status  
-**Insight:**  
-Patients receiving **no medication** show the **highest severity**.
+**Caption:** *Treatment gaps become visible when severity is compared across medication classes.*
 
-**Interpretation:**  
-Indicates major unmet need and treatment gaps.
+### Observation  
+- Patients receiving **no medication** show the **highest overall severity**.  
+- Benzodiazepine users also show elevated severity.  
+
+### Interpretation  
+This may reflect:
+- Under-treatment or delayed treatment initiation  
+- Improper reliance on benzodiazepines for acute relief rather than long-term management  
+- Anxiety-driven patients requiring more structured therapy  
+
+### Business Impact  
+- Clear need for therapy initiation campaigns among untreated patients.  
+- Highlights the importance of prescribing guidelines discouraging benzodiazepine monotherapy.  
 
 **Visualization:**  
 ![](dataset/meds_anxiety.png)
 
+---
 
 ## 3.7 Medication Class × Disease Duration  
-**Insight:**  
-Severity increases with disease duration across all medication classes.
+**Caption:** *Longer disease duration correlates with greater severity—yet SSRIs show the most stable performance.*
 
-**Interpretation:**  
-Supports long-term disease progression modeling; SSRIs show most stable long-term patterns.
+### Observation  
+Severity increases steadily with **disease duration**, regardless of medication class.
+
+### Interpretation  
+Chronic OCD is harder to treat due to:
+- Entrenched behavioral patterns  
+- Poorer cognitive-behavioral flexibility  
+- Increased comorbidity risk  
+
+SSRIs appear to demonstrate **more stable severity curves**, showing reliable long-term effects.
+
+### Business Impact  
+- Reinforces SSRIs as the clinical first-line backbone.  
+- Identifies long-duration patients as optimal targets for **augmentation trials**, new mechanisms, and digital support tools.  
 
 **Visualization:**  
 ![](dataset/meds_duration.png)
