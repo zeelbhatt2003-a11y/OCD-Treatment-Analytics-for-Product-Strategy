@@ -1,25 +1,19 @@
 # OCD Treatment Analytics for Pharma Product Strategy  
 An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
 
----
-# OCD Treatment Analytics for Pharma Product Strategy  
-An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
-
----
 
 ## 1. Project Overview  
-This project analyzes real-world-style OCD patient data (N=60) to uncover:
+This project demonstrates the core competencies of a Product Analyst or Medical Affairs Analyst by translating complex, real-world style clinical data (N=60) into actionable, evidence-based insights for therapeutic strategy, market segmentation, and clinical decision support within the biopharma industry.The analysis provides critical intelligence necessary for building data-driven business cases, optimizing product roadmaps, and prioritizing Real-World Evidence (RWE) generation across the product lifecycle.
 
-- Patterns in symptom severity across demographic groups  
-- The impact of depression and anxiety comorbidities  
-- High-risk obsession–compulsion combinations  
-- Treatment differences across medication classes  
-- How disease duration influences severity and treatment outcomes  
+Core Analytical ObjectivesThe analysis utilizes the Yale-Brown Obsessive Compulsive Scale (Y-BOCS) and patient metadata to:
 
-The goal is to demonstrate how a **Product Analyst or Medical Affairs Analyst** interprets clinical data to support evidence-based strategy, segmentation, and decision-making.
-
-All analysis was performed in **Excel** using PivotTables, calculated fields, and visual dashboards.
-
+- Segment Severity: Uncover patterns in symptom severity ({Y-BOCS}) across key demographic factors (e.g., Age Group, Sex). 
+- Comorbidity Impact: Quantify the influence of co-morbid Depression and Anxiety on overall disease severity and treatment response rates.  
+- High-Risk Phenotypes: Identify and prioritize specific Obsession-Compulsion combinations that drive the highest functional impairment.
+- TrTreatment Efficacy: Compare mean treatment outcomes across various medication classes, including SSRI Monotherapy vs. Augmentation.  
+- Prognostic Factors: Assess the predictive role of Disease Duration (time from symptom onset) on subsequent treatment success and failure.
+  
+Analysis Tool: Microsoft Excel (PivotTables, Calculated Fields, and Visual Dashboards) — Demonstrating proficiency in rapid data-to-insight generation before scaling to platform/engineering solutions.
 ---
 
 ## 2. Dataset Summary  
@@ -47,8 +41,7 @@ Each visualization is paired with a clear interpretation written from a pharma-a
 
 ### 🔹 3.1 OCD Severity by Gender  
 **Insight:**  
-Female patients show slightly higher severity scores in both obsessions and compulsions.  
-This suggests gender-specific symptom expression, which may influence patient support programs or targeted educational material.
+Female patients exhibit a significantly higher overall disease burden, with their average Total OCD Severity ($\mathbf{46.31}$ $\text{Y-BOCS}$) approximately $25\%$ higher than male patients ($\mathbf{36.92}$ $\text{Y-BOCS}$). This difference is primarily driven by Compulsion Severity (Females: $22.28$ vs. Males: $15.96$). This justifies segmenting patient support programs and educational outreach to specifically target and measure compulsion reduction in the female patient population.
 
 **Visualization:**  
 ![](dataset/gender_severity.png)
