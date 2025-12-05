@@ -56,7 +56,7 @@ This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, an
 Each visualization includes both an **observation** and a **strategic interpretation**.
 
 
-## 🔹 3.1 OCD Severity by Gender  
+## 3.1 OCD Severity by Gender  
 **Insight:**  
 Female patients show slightly higher severity levels.
 
@@ -67,7 +67,7 @@ May reflect stronger emotional, ruminative symptom profiles — helpful for tail
 ![](dataset/gender_severity.png)
 
 
-## 🔹 3.2 OCD Severity by Age Group  
+## 3.2 OCD Severity by Age Group  
 **Insight:**  
 Patients **under 30** show the **highest severity**.
 
@@ -78,7 +78,7 @@ Indicates early-onset, high-burden illness → key target group for **early inte
 ![](dataset/agegroup_severity.png)
 
 
-## 🔹 3.3 Severity by Depression Comorbidity  
+## 3.3 Severity by Depression Comorbidity  
 **Insight:**  
 Surprisingly, patients **without depression** show slightly higher OCD severity.
 
@@ -89,7 +89,7 @@ OCD may be more primary and independent of mood symptoms — affects clinical pr
 ![](dataset/depression_severity.png)
 
 
-## 🔹 3.4 Severity by Anxiety Comorbidity  
+## 3.4 Severity by Anxiety Comorbidity  
 **Insight:**  
 Anxiety comorbidity significantly increases **compulsion severity**.
 
@@ -100,7 +100,7 @@ Anxiety may intensify compulsive behavior → supports combination therapy messa
 ![](dataset/anxiety_severity.png)
 
 
-## 🔹 3.5 Obsession–Compulsion Severity Heatmap  
+## 3.5 Obsession–Compulsion Severity Heatmap  
 **High-Severity Clusters Identified:**
 - Religious → Praying  
 - Harm-Related → Checking  
@@ -113,7 +113,7 @@ These define **high-burden phenotypes** — ideal for precision medicine, clinic
 ![](dataset/obsession_compulsion_heatmap.png)
 
 
-## 🔹 3.6 Medication Class × Anxiety Status  
+## 3.6 Medication Class × Anxiety Status  
 **Insight:**  
 Patients receiving **no medication** show the **highest severity**.
 
@@ -124,7 +124,7 @@ Indicates major unmet need and treatment gaps.
 ![](dataset/meds_anxiety.png)
 
 
-## 🔹 3.7 Medication Class × Disease Duration  
+## 3.7 Medication Class × Disease Duration  
 **Insight:**  
 Severity increases with disease duration across all medication classes.
 
@@ -138,26 +138,26 @@ Supports long-term disease progression modeling; SSRIs show most stable long-ter
 # 4. Strategic Insights for Biopharma Product & Medical Teams  
 
 
-## 1. High-Value Unmet-Need Segments  
+## 4.1 High-Value Unmet-Need Segments  
 - **Untreated, high-severity patients**  
 - **Long-duration, partial-response patients**  
 - **Early severe onset (<30 yrs)** — ideal for early-intervention campaigns  
 
 
-## 2. Medication Class Performance  
+## 4.2 Medication Class Performance  
 - **SSRIs:** Most stable long-term control  
 - **SNRIs:** Highly variable → requires targeted RWE  
 - **Benzodiazepines:** Associated with high severity → treatment-resistant signal  
 
 
-## 3. Behavioral Phenotype Clusters  
+## 4.3 Behavioral Phenotype Clusters  
 Heatmap-driven phenotypes support:
 - Precision segmentation  
 - RWE prioritization  
 - Advanced therapy messaging  
 
 
-## 4. Opportunities for Intervention  
+## 4.4 Opportunities for Intervention  
 - Digital therapeutics for high compulsion severity  
 - Combined therapy strategies for comorbidity-linked severity  
 - Early intervention for high-burden young adults  
