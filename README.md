@@ -1,5 +1,15 @@
+![OCD Analytics Banner](dataset/ocd_banner.png)
+
 # OCD Treatment Analytics for Pharma Product Strategy  
 An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
+
+## Table of Contents
+1. Project Overview  
+2. Dataset Summary  
+3. Key Insights  
+4. Visualizations  
+5. Strategic Recommendations  
+6. Files in Repository  
 
 
 ## 1. Project Overview  
@@ -14,9 +24,15 @@ Core Analytical ObjectivesThe analysis utilizes the Yale-Brown Obsessive Compuls
 - Prognostic Factors: Assess the predictive role of Disease Duration (time from symptom onset) on subsequent treatment success and failure.
   
 Analysis Tool: Microsoft Excel (PivotTables, Calculated Fields, and Visual Dashboards) — Demonstrating proficiency in rapid data-to-insight generation before scaling to platform/engineering solutions.
----
 
-## 2. Dataset Summary  
+## What This Project Demonstrates
+- Clinical data exploration using Excel  
+- Patient segmentation & disease severity profiling  
+- Understanding of comorbidity interactions  
+- Product strategy thinking (treatment class performance)  
+- Dashboard-level storytelling  
+
+## Dataset Summary  
 
 **Core Attributes**
 Each record includes essential data for clinical modeling:
@@ -31,22 +47,21 @@ Each record includes essential data for clinical modeling:
 - **Age group** (Under 30, 30–50, Over 50)  
 - **Duration band** (0–5 yrs, 5–10 yrs, >10 yrs)
 
----
 
-## 3. Analytics & Visual Insights  
+## 4. Analytics & Visual Insights  
 
 Each visualization is paired with a clear interpretation written from a pharma-analytics perspective.
 
----
 
 ### 3.1 OCD Severity by Gender  
 **Insight:**  
-Female patients exhibit a significantly higher overall disease burden, with their average Total OCD Severity ($\mathbf{46.31}$ $\text{Y-BOCS}$) approximately $25\%$ higher than male patients ($\mathbf{36.92}$ $\text{Y-BOCS}$). This difference is primarily driven by Compulsion Severity (Females: $22.28$ vs. Males: $15.96$). This justifies segmenting patient support programs and educational outreach to specifically target and measure compulsion reduction in the female patient population.
+Observation: Females show slightly higher severity.
+Interpretation: Suggests stronger emotional/ruminative symptom types.
+Business Impact: Ideal audience for targeted educational content or support programs.
 
 **Visualization:**  
 ![](dataset/gender_severity.png)
 
----
 
 ### 3.2 OCD Severity by Age Group  
 **Insight:**  
@@ -56,7 +71,6 @@ This indicates earlier-stage, more disruptive illness, representing a key segmen
 **Visualization:**  
 ![](dataset/agegroup_severity.png)
 
----
 
 ### 3.3 OCD Severity by Depression Comorbidity  
 **Insight:**  
@@ -66,7 +80,6 @@ This suggests their OCD symptoms may be more primary rather than secondary to mo
 **Visualization:**  
 ![](dataset/depression_severity.png)
 
----
 
 ### 3.4 OCD Severity by Anxiety Comorbidity  
 **Insight:**  
@@ -76,7 +89,6 @@ This implies anxiety may intensify compulsive behaviors — a valuable insight f
 **Visualization:**  
 ![](dataset/anxiety_severity.png)
 
----
 
 ### 3.5 Obsession–Compulsion Severity Heatmap  
 **Insight:**  
@@ -90,7 +102,6 @@ These clusters highlight the most clinically burdensome behavior patterns and he
 **Visualization:**  
 ![](dataset/obsession_compulsion_heatmap.png)
 
----
 
 ### 3.6 Medication Class × Anxiety Status  
 **Insight:**  
@@ -100,7 +111,6 @@ For medicated patients, benzodiazepine users showed relatively high severity, su
 **Visualization:**  
 ![](dataset/meds_anxiety.png)
 
----
 
 ### 3.7 Medication Class × Disease Duration  
 **Insight:**  
@@ -110,7 +120,19 @@ SSRI users show the most stable pattern across duration groups, supporting SSRIs
 **Visualization:**  
 ![](dataset/meds_duration.png)
 
----
+## Limitations & Next Steps
+
+## Limitations
+- Sample size limited to 60 patients  
+- Real-world data would include more comorbidity fields  
+- Medication adherence was not measured  
+
+## Next Steps
+- Add regression to quantify predictors of severity  
+- Build automated Excel dashboards  
+- Expand dataset to 500+ patients  
+
+
 
 ## 4. Strategic Insights for Biopharma Product & Medical Teams
 
@@ -134,7 +156,6 @@ The analysis of the N=60 patient cohort provides actionable, evidence-based dire
 * **Clinical Messaging:** Focus on the impact of **Comorbidity-Linked Severity** (Anxiety/Depression) to encourage clinicians toward comprehensive, multi-modal treatment planning.
 * **Early Intervention:** Implement programs targeting young adults to reduce the long-term functional impairment caused by severe symptom onset.
 
----
 
 ## 5. Repository Files
 
@@ -142,3 +163,9 @@ This project utilizes the following data files:
 
 * `ocd_analytics.xlsx - Sheet1.csv`: **Primary Patient Data.** Contains raw demographics, clinical variables, and Y-BOCS scores.
 * `ocd_analytics.xlsx - Sheet3.csv`: **PivotTable Source Data.** Contains aggregated summary tables used for all statistical insights and visualizations.
+
+  ---
+
+**Project by Zeel Bhatt**    
+Email: zeelbhatt2003@gmail.com
+
