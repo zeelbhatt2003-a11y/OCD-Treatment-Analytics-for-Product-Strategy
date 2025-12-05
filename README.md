@@ -17,16 +17,16 @@ Analysis Tool: Microsoft Excel (PivotTables, Calculated Fields, and Visual Dashb
 ---
 
 ## 2. Dataset Summary  
-Each patient record includes:
 
-- Age, gender, ethnicity  
-- OCD diagnosis date + duration of symptoms  
-- Obsession type & compulsion type  
-- Depression / anxiety comorbidities  
-- Medication class (SSRI, SNRI, Benzodiazepine, None)  
-- Severity scores (Y-BOCS Obsessions & Compulsions)
-
-Derived fields:  
+**Core Attributes**
+Each record includes essential data for clinical modeling:
+- Demographics: Age and Gender
+- Disease Profile: Symptom Duration
+- Obsession/Compulsion Type, and the presence of Depression/Anxiety Comorbidities
+- Treatment: Primary Medication Class (SSRI, SNRI, Benzodiazepine, None)
+- Severity Metric: Raw {Y-BOCS} Scores (Obsessions & Compulsions)
+  
+**Derived fields:**  
 - **Total OCD Severity** = Average of obsession + compulsion score  
 - **Age group** (Under 30, 30–50, Over 50)  
 - **Duration band** (0–5 yrs, 5–10 yrs, >10 yrs)
