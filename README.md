@@ -39,7 +39,7 @@ Each visualization is paired with a clear interpretation written from a pharma-a
 
 ---
 
-### 🔹 3.1 OCD Severity by Gender  
+### 3.1 OCD Severity by Gender  
 **Insight:**  
 Female patients exhibit a significantly higher overall disease burden, with their average Total OCD Severity ($\mathbf{46.31}$ $\text{Y-BOCS}$) approximately $25\%$ higher than male patients ($\mathbf{36.92}$ $\text{Y-BOCS}$). This difference is primarily driven by Compulsion Severity (Females: $22.28$ vs. Males: $15.96$). This justifies segmenting patient support programs and educational outreach to specifically target and measure compulsion reduction in the female patient population.
 
@@ -48,7 +48,7 @@ Female patients exhibit a significantly higher overall disease burden, with thei
 
 ---
 
-### 🔹 3.2 OCD Severity by Age Group  
+### 3.2 OCD Severity by Age Group  
 **Insight:**  
 Patients under 30 demonstrate the highest average severity.  
 This indicates earlier-stage, more disruptive illness, representing a key segment for early-intervention therapies and long-term treatment planning.
@@ -58,7 +58,7 @@ This indicates earlier-stage, more disruptive illness, representing a key segmen
 
 ---
 
-### 🔹 3.3 OCD Severity by Depression Comorbidity  
+### 3.3 OCD Severity by Depression Comorbidity  
 **Insight:**  
 Patients without depression show *higher* OCD scores.  
 This suggests their OCD symptoms may be more primary rather than secondary to mood disorders — potentially affecting how treatment is prioritized.
@@ -68,7 +68,7 @@ This suggests their OCD symptoms may be more primary rather than secondary to mo
 
 ---
 
-### 🔹 3.4 OCD Severity by Anxiety Comorbidity  
+### 3.4 OCD Severity by Anxiety Comorbidity  
 **Insight:**  
 Anxiety comorbidity correlates with significantly higher compulsion severity.  
 This implies anxiety may intensify compulsive behaviors — a valuable insight for combination-therapy research or clinical messaging.
@@ -78,7 +78,7 @@ This implies anxiety may intensify compulsive behaviors — a valuable insight f
 
 ---
 
-### 🔹 3.5 Obsession–Compulsion Severity Heatmap  
+### 3.5 Obsession–Compulsion Severity Heatmap  
 **Insight:**  
 This heatmap identifies high-severity pairings such as:  
 - **Religious + Praying**  
@@ -92,7 +92,7 @@ These clusters highlight the most clinically burdensome behavior patterns and he
 
 ---
 
-### 🔹 3.6 Medication Class × Anxiety Status  
+### 3.6 Medication Class × Anxiety Status  
 **Insight:**  
 Among medication classes, patients on **“None”** showed the highest severity — indicating unmet treatment needs.  
 For medicated patients, benzodiazepine users showed relatively high severity, suggesting partial response or inappropriate monotherapy.
@@ -102,7 +102,7 @@ For medicated patients, benzodiazepine users showed relatively high severity, su
 
 ---
 
-### 🔹 3.7 Medication Class × Disease Duration  
+### 3.7 Medication Class × Disease Duration  
 **Insight:**  
 Severity tends to increase with longer disease duration for all medication classes.  
 SSRI users show the most stable pattern across duration groups, supporting SSRIs as the most consistent long-term therapy.
@@ -112,28 +112,33 @@ SSRI users show the most stable pattern across duration groups, supporting SSRIs
 
 ---
 
-## 4. Strategic Insights for Pharma / Product Teams  
+## 4. Strategic Insights for Biopharma Product & Medical Teams
 
-### ⭐ **1. Clear unmet-need segments**
-- High-severity, untreated patients  
-- Long-duration patients with partial response  
-- Younger patients with severe onset  
+The analysis of the N=60 patient cohort provides actionable, evidence-based direction for product strategy, market segmentation, and clinical communication.
 
-### ⭐ **2. Medication class performance**
-- SSRIs show the most consistent symptom control  
-- SNRI performance varies by comorbidity  
-- Benzodiazepine use correlates with higher severity → possible misuse or treatment-resistant subgroup  
+### 1. Clear Unmet-Need Segments
+* **High-Acuity/Untreated:** Focus on patients with high baseline severity (e.g., Obsession Y-BOCS up to 31.2) who are currently on **No Medication** but possess **Anxiety Comorbidity**. This defines an immediate, high-value segment for **treatment initiation campaigns**.
+* **Long-Duration & Refractory:** Patients with **Disease Duration >10 years** often show partial response. This segment requires **therapeutic augmentation** or switching strategies to overcome chronic symptom plateaus.
+* **Early, Severe Onset:** The **Under 30 age group** shows peak **Obsession Severity** (24.81), necessitating **early, aggressive intervention** programs focused on disrupting acute obsessional thought patterns.
 
-### ⭐ **3. Behavioral phenotype clusters**
-Heatmap identifies severe OCD phenotypes → useful for precision medicine segmentation.
+### 2. Medication Class Performance & Clinical Guidance
+* **SSRI Stability:** SSRIs demonstrate the most **consistent long-term symptom control** in chronic users, confirming their role as the gold-standard baseline therapy.
+* **SNRI Heterogeneity:** Performance varies significantly by comorbidity profile, signaling a need for **targeted RWE** to define its optimal placement in the treatment algorithm.
+* **Benzodiazepine Correlation:** Use correlates with **higher overall severity**, flagging a potential **treatment-resistant subgroup** or the need for **clinician education** on its appropriate adjunctive vs. monotherapy use.
 
-### ⭐ **4. Opportunities for targeted interventions**
-- Digital therapeutics for high-severity compulsions  
-- Early-intervention programs for young adults  
-- Messaging for clinicians around comorbidity-linked severity  
+### 3. Behavioral Phenotype Clusters
+* **Precision Targeting:** The Obsession–Compulsion Heatmap identifies maximum-severity clusters (e.g., Religious Obsession + Checking, Obsession Y-BOCS = 32.5). These severe phenotypes are ideal for **Precision Medicine Segmentation** and **advanced therapy trials** to prove efficacy in the most burdensome patient subsets.
+
+### 4. Opportunities for Targeted Interventions
+* **Digital/Behavioral Therapy:** Target solutions toward patient segments with high **Compulsion severity** (e.g., 30–50 age group) to manage entrenched, high-impact rituals.
+* **Clinical Messaging:** Focus on the impact of **Comorbidity-Linked Severity** (Anxiety/Depression) to encourage clinicians toward comprehensive, multi-modal treatment planning.
+* **Early Intervention:** Implement programs targeting young adults to reduce the long-term functional impairment caused by severe symptom onset.
 
 ---
 
-## 5. Files in This Repository  
+## 5. Repository Files
 
+This project utilizes the following data files:
 
+* `ocd_analytics.xlsx - Sheet1.csv`: **Primary Patient Data.** Contains raw demographics, clinical variables, and Y-BOCS scores.
+* `ocd_analytics.xlsx - Sheet3.csv`: **PivotTable Source Data.** Contains aggregated summary tables used for all statistical insights and visualizations.
