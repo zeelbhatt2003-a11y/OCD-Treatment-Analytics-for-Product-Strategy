@@ -7,11 +7,10 @@ An Excel-based clinical analytics project exploring OCD severity patterns, comor
 ## Table of Contents  
 1. [Project Overview](#1-project-overview)  
 2. [Dataset Summary](#2-dataset-summary)  
-3. [Key Insights](#3-analytics--visual-insights)  
-4. [Visualizations](#3-analytics--visual-insights)  
-5. [Strategic Recommendations](#4-strategic-insights-for-biopharma-product--medical-teams)  
-6. [Limitations & Next Steps](#limitations--next-steps)  
-7. [Repository Files](#5-repository-files)  
+3. [Key Insights](#3-analytics--visual-insights)
+4. [Strategic Recommendations](#4-strategic-insights-for-biopharma-product--medical-teams)
+5. [Limitations & Next Steps](#limitations--next-steps)
+6. [Repository Files](#5-repository-files)  
 
 
 ## 1. Project Overview  
@@ -163,7 +162,7 @@ Heatmap-driven phenotypes support:
 - Early intervention for high-burden young adults  
 
 
-# Limitations & Next Steps  
+# 5. Limitations & Next Steps  
 
 ### Limitations  
 - Sample size = 60  
@@ -176,7 +175,7 @@ Heatmap-driven phenotypes support:
 - Develop automated Excel dashboards  
 
 
-# 5. Repository Files  
+# 6. Repository Files  
 
 | File | Description |
 |------|-------------|
