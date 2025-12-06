@@ -11,7 +11,7 @@
 
 
 # 1. Project Overview  
-This project demonstrates the capabilities of a **Health Data Analyst/Product Analyst** by translating real-world style clinical data (N = 60) into high-impact insights supporting:
+This project demonstrates the capabilities of a Health Data Analyst/Product Analyst by translating real-world style clinical data (N = 60) into high-impact insights supporting:
 
 - Therapeutic strategy  
 - Market segmentation  
