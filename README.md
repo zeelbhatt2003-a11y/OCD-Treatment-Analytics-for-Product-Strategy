@@ -109,7 +109,7 @@ This suggests that:
 ![](dataset/depression_severity.png)
 
 
-## 3.4 Anxiety amplifies compulsive behaviors—identifying a high-risk treatment-resistant phenotype
+## 3.4 Anxiety amplifies compulsive behaviors identifying a high-risk treatment-resistant phenotype
 
 ### Observation  
 Patients with **Anxiety Comorbidity** exhibit **significantly higher Compulsion severity**.
