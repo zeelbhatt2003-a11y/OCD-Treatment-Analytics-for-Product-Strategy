@@ -1,8 +1,8 @@
 ![OCD Analytics Banner](dataset/ocd_banner.png)
 
-<p align="center">This is centered text.</p>
-# OCD Treatment Analytics for Pharma Product Strategy  
-An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.
+<p align="center">.# OCD Treatment Analytics for Pharma Product Strategy  
+An Excel-based clinical analytics project exploring OCD severity patterns, comorbidities, demographics, and medication class performance to support product & medical strategy decisions.</p>
+
 
 
 # Table of Contents  
