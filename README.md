@@ -231,7 +231,7 @@ Heatmap-driven phenotypes support:
 | `README.md` | Full project report |
 
 
-<p align="center">**Project by Zeel Bhatt**  
-**zeelbhatt2003@gmail.com**</p>
+<p align="center">Project by Zeel Bhatt</p>
+<p align="center">zeelbhatt2003@gmail.com</p>
 
 
