@@ -48,8 +48,7 @@ This reflects real analytical workflows used in Pharma, Medical Affairs, RWE, an
 
 
 # 3. Analytics & Visual Insights  
-This section transforms raw clinical data into meaningful insights for treatment optimization, product strategy, and evidence-based decision making.  
-Each visualization includes **observations**, **clinical interpretation**, and **business implications**—mirroring real-world pharma analytics workflows.
+This section transforms raw clinical data into meaningful insights for treatment optimization, product strategy, and evidence-based decision making. Each visualization includes **observations**, **clinical interpretation**, and **business implications**—mirroring real-world pharma analytics workflows.
 
 
 ## 3.1 Gender-driven severity differences highlight opportunities for tailored clinical interventions
@@ -66,7 +65,6 @@ This may indicate stronger emotional rumination patterns or heightened symptom a
 
 ![](dataset/gender_severity.png)
 
----
 
 ## 3.2 Younger patients show early-stage, high-burden illness—an important signal for long-term treatment planning.
 
@@ -85,7 +83,6 @@ Early pronounced symptoms suggest:
 
 ![](dataset/agegroup_severity.png)
 
----
 
 ## 3.3 A surprising pattern: OCD may be more severe when it exists independently of depression.
 
@@ -234,6 +231,7 @@ Heatmap-driven phenotypes support:
 | `README.md` | Full project report |
 
 
-**Project by Zeel Bhatt**  
-**zeelbhatt2003@gmail.com**
+<p align="center">**Project by Zeel Bhatt**  
+**zeelbhatt2003@gmail.com**</p>
+
 
